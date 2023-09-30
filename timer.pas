@@ -10,7 +10,7 @@
   if minutes >= 60 then
   begin
     hours += minutes div 60;
-    hours := minutes mod 60;
+    minutes := minutes mod 60;
   end;
   
   Println($'Общее количество секунд: {seconds + minutes * 60 + hours * 3600}');
