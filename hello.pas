@@ -9,5 +9,4 @@
     else
       Println('Доброй ночи, мир!');
   end;
-  
 end.
